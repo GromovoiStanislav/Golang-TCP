@@ -59,15 +59,3 @@ func main() {
 		go handleConnection(conn)
 	}
 }
-
-// go run main.go
-
-// go mod init mymodule
-// go build -o myapp.exe
-// ./myapp
-// Ctrl+C
-
-//go build main.go
-// go build -o myapp.exe main.go
-// ./myapp
-// Ctrl+C
