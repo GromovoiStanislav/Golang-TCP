@@ -51,6 +51,7 @@ func main() {
 			fmt.Println("Error accepting connection:", err)
 			continue
 		}
+		fmt.Println("Клиент подключен")
 
 		go handleConnection(conn)
 	}
