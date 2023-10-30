@@ -1,4 +1,4 @@
-## TCP example
+## TCP Client stream simple example
 
 ```
 go run .\server.go
